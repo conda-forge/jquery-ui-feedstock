@@ -18,12 +18,15 @@ jQuery UI is the perfect choice.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/jquery-ui-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jquery-ui-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jquery-ui-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jquery-ui-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jquery-ui/badges/version.svg)](https://anaconda.org/conda-forge/jquery-ui)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jquery-ui/badges/downloads.svg)](https://anaconda.org/conda-forge/jquery-ui)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jquery--ui-green.svg)](https://anaconda.org/conda-forge/jquery-ui) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jquery-ui.svg)](https://anaconda.org/conda-forge/jquery-ui) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jquery-ui.svg)](https://anaconda.org/conda-forge/jquery-ui) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jquery-ui.svg)](https://anaconda.org/conda-forge/jquery-ui) |
 
 Installing jquery-ui
 ====================
