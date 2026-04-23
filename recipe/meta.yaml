@@ -1,6 +1,6 @@
 {% set name = "jquery-ui" %}
-{% set version = "1.12.1" %}
-{% set sha256 = "749252a7a23a58722f76d099d2bdd152d0da6aaa4764150bd8f5c27e544fd7b4" %}
+{% set version = "1.13.3" %}
+{% set sha256 = "d859043af2e1b7d7c4071159b6ffffdd1661409dc3d5c32157611773b7f015c4" %}
 
 package:
   name: {{ name|lower }}
@@ -20,13 +20,13 @@ build:
 requirements:
   build:
     - nodejs
-  
+
 test:
   commands:
     - npm list -g jquery-ui
   requires:
     - nodejs
-   
+
 
 about:
   home: https://github.com/jquery/jquery-ui
