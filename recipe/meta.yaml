@@ -1,6 +1,6 @@
 {% set name = "jquery-ui" %}
-{% set version = "1.12.1" %}
-{% set sha256 = "749252a7a23a58722f76d099d2bdd152d0da6aaa4764150bd8f5c27e544fd7b4" %}
+{% set version = "1.13.2" %}
+{% set sha256 = "7e5e539124c6e7f6cf07b9ef595438853603272b42cf40db5ed30650e94346cc" %}
 
 package:
   name: {{ name|lower }}
@@ -20,20 +20,20 @@ build:
 requirements:
   build:
     - nodejs
-  
+
 test:
   commands:
     - npm list -g jquery-ui
   requires:
     - nodejs
-   
+
 
 about:
   home: https://github.com/jquery/jquery-ui
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'The official jQuery user interface library.'
+  summary: The official jQuery user interface library.
   description: |
     jQuery UI is a curated set of user interface interactions, effects, widgets, 
     and themes built on top of jQuery. Whether you're building highly interactive 
